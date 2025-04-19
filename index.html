@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>📚 Study Timer</title>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database-compat.js"></script>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>⏱️ Real-Time Study Timer</h1>
+
+  <div>
+    <h2>Your Timer: <span id="my-timer">00:00:00</span></h2>
+    <button onclick="startTimer()">Start</button>
+    <button onclick="pauseTimer()">Pause</button>
+  </div>
+
+  <hr>
+
+  <div>
+    <h2>Friend's Timer: <span id="friend-timer">00:00:00</span></h2>
+  </div>
+</body>
+</html>

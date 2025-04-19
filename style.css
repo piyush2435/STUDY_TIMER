@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    padding: 30px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4cae4c;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
